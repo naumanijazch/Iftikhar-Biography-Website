@@ -96,11 +96,11 @@ function NavBar() {
 
             <Nav.Item className="shoppingcart-btn">
               <Button
-                href="https://www.google.com"
+                href="https://portal.policelegacynsw.org.au/campaign/83/iftis-book-launch"
                 target="_blank"
                 className="shoppingcart-btn-inner"
               >
-                <AiOutlineShoppingCart style={{ fontSize: "1.2em" }} />
+                <AiOutlineShoppingCart style={{ fontSize: "1.2em" }} /> Donate
               </Button>
             </Nav.Item>
           </Nav>
