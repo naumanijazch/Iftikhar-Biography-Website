@@ -72,7 +72,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/journalist"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFileText style={{ marginBottom: "2px" }} /> Journalist
@@ -82,7 +82,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/other"
+                to="/author"
                 onClick={() => updateExpanded(false)}
               >
               <AiOutlineEdit style={{ marginBottom: "2px" }} /> Author
@@ -92,10 +92,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/other"
+                to="/policeofficer"
                 onClick={() => updateExpanded(false)}
               >
-              <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} /> Police 
+              <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} /> Police Officer
               </Nav.Link>
             </Nav.Item>
 

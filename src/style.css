@@ -1,17 +1,18 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(100, 58, 148, 0.582),
+    rgba(72, 39, 108, 0.904) 
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(100, 58, 148, 0.678), 
+    rgba(72, 39, 108, 0.863) 
   );
 
-  --imp-text-color: #008073;
+  --imp-text-color: #bb6dfa;
+
 }
 
 .teal {
@@ -32,7 +33,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #2d3b2f;
+  background-color: #c9aae1;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,18 +58,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #093541;
+  background: rgba(100, 58, 148, 0.582);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(10, 102, 97, 0.959);
+  background: rgba(100, 58, 148, 0.582);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(20, 117, 101, 0.911);
+  background: rgba(100, 58, 148, 0.582);
   border-radius: 12px;
 }
 
@@ -76,9 +77,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #092d2ea9 !important;
+  background-color: rgba(100, 58, 148, 0.582) !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(5, 56, 58, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(100, 58, 148, 0.582) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -97,7 +98,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #0c5c5c !important;
+  background-color: rgba(100, 58, 148, 0.582) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +145,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #0d3b3b !important;
+    background-color: rgba(100, 58, 148, 0.582) !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -194,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #0b645d;
+  background: rgba(100, 58, 148, 0.582);
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -207,7 +208,7 @@ button:focus {
 
 
 .teal-link {
-  color: teal;
+  color: purple;
   text-decoration: none;
 }
 
@@ -218,8 +219,8 @@ button:focus {
 .read-more {
   padding: 20px 40px;
   background-color: transparent;
-  border: 2px solid #126654; /* Green neonish border */
-  color: #229c92; /* Green neonish text color */
+  border: 2px solid rgba(72, 39, 108, 0.863);
+  color: white; 
   border-radius: 0;
   text-decoration: none;
   display: inline-block;
@@ -252,9 +253,9 @@ button:focus {
 }
 
 .read-more:hover {
-  background-color: #2ba3a34d; /* Slightly transparent green on hover */
-  color: #fff; /* White text color on hover */
-  border: 2px solid #15c0a9; /* Keep the green neonish border on hover */
+  background-color: rgba(100, 58, 148, 0.678); /* Purple slightly transparent color on hover */
+  color: white; /* White text color on hover */
+  border: 2px solid rgba(72, 39, 108, 0.863); /* Keep the purple border on hover */
   transform: scale(1.1); /* Slightly increase size on hover */
 }
 
@@ -272,7 +273,7 @@ button:focus {
   position: relative;
   z-index: -1;
   background-position: center;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  background-color: #64998D;  background-position: top center;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  background-color: rgba(72, 39, 108, 0.863);  background-position: top center;
   background-repeat: repeat !important;
   background-size: cover;
   padding-bottom: 30px !important;
@@ -328,12 +329,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 3.0em !important;
-  color: #008073 !important;
+  color: #bb6dfa !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 3.2em !important;
-  color: #008073 !important;
+  color: #bb6dfa !important;
 }
 
 @media (max-width: 767px) {
@@ -409,7 +410,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #008073;
+  background: #bb6dfa;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -422,8 +423,8 @@ button:focus {
 
 .home-social-icons:hover {
   color: #055c53;
-  box-shadow: 0 0 5px #008073;
-  text-shadow: 0 0 2px #008073;
+  box-shadow: 0 0 5px #bb6dfa;
+  text-shadow: 0 0 2px #bb6dfa;
 }
 
 .social-icons {
@@ -433,7 +434,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #008073 !important;
+  color: #bb6dfa !important;
 }
 
 
@@ -455,7 +456,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(5, 37, 33);
+  background-color: rgba(100, 58, 148, 0.582);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -492,7 +493,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #008073 !important;
+  color: #bb6dfa !important;
 }
 /* --------- */
 /* Projects */
@@ -602,7 +603,6 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  background-color: #64998D;  background-position: top center;
   background-repeat: repeat;
-
   color: white !important;
 }
 
@@ -655,82 +655,82 @@ button:focus {
   }
 }
 /* --------- */
-/* Resume */
+/* journalist */
 /* --------- */
 
-.resume-section {
+.journalist-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  background-color: #64998D;  background-position: top center;
   background-repeat: repeat;
   color: white !important;
 }
 
-.resume {
+.journalist {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
 }
 
-.resume-left {
+.journalist-left {
   padding-right: 80px !important;
 }
 
-.resume-right {
+.journalist-right {
   padding-left: 80px !important;
 }
 
 @media (max-width: 767px) {
-  .resume-left {
+  .journalist-left {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 
-  .resume-right {
+  .journalist-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
 }
-.resume .resume-title {
+.journalist .journalist-title {
   font-size: 2em;
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.resume .resume-item {
+.journalist .journalist-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
   border-left: 2px solid #49a8a3;
   position: relative;
 }
 
-.resume .resume-item .resume-title {
+.journalist .journalist-item .journalist-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #008073;
+  background: #bb6dfa;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.journalist .journalist-item ul {
   padding-left: 20px;
   text-align: justify;
 }
 
-.resume .resume-item ul li {
+.journalist .journalist-item ul li {
   padding-bottom: 10px;
   list-style: none;
 }
 
-.resume .resume-item:last-child {
+.journalist .journalist-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.journalist .journalist-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -749,8 +749,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #008073 !important;
-  border-color: #008073 !important;
+  background-color: #bb6dfa !important;
+  border-color: #bb6dfa !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -759,8 +759,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #008073 !important;
-  border-color: #008073 !important;
+  background-color: #bb6dfa !important;
+  border-color: #bb6dfa !important;
 }
 
 .animate-like {
@@ -784,7 +784,7 @@ button:focus {
 
 .shoppingcart-btn-inner {
   line-height: 1.4em !important;
-  background-color: #008073 !important;
+  background-color: #bb6dfa !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -792,8 +792,8 @@ button:focus {
 
 .shoppingcart-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #008073 !important;
-  border-color: #008073 !important;
+  background-color: #bb6dfa !important;
+  border-color: #bb6dfa !important;
 }
 .shoppingcart-btn-inner::after {
   display: none !important;

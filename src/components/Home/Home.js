@@ -2,10 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Col } from "react-bootstrap";
 import me from "../../Assets/mypicture.jpg";
-import poetry from "../../Assets/poetry.jpg"
 import Type from "./Type";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import { RxOpenInNewWindow } from "react-icons/rx"; // Import the arrow icon from react-icons
 
 function Home() {
