@@ -22,8 +22,8 @@ function Home() {
                 </div>
                 <div className="paragraph-container">
                   <p>
-                    <span className="teal"><h3>Announcement: </h3></span>
-                    <strong>Book Launch:</strong> Urdu Poetry <strong className="teal">ASHK DO CHAAR</strong>
+                    <span className="purple_theme"><h3>Announcement: </h3></span>
+                    <strong>Book Launch:</strong> Urdu Poetry <strong className="purple_theme">ASHK DO CHAAR</strong>
                     <br></br>
                     <strong>Date and Time:</strong> <em>Friday: October 6th, 2023</em> at <em>5:30 pm to 7:30 pm</em>
                     <br></br>
@@ -34,7 +34,7 @@ function Home() {
                 </div>
               <Col md={12}>
                 <div className="urdu-container">
-                  <h3 className="teal">:لاش کا نرھوں</h3>
+                  <h3 className="purple_theme">:لاش کا نرھوں</h3>
                   <p
                   >وفا جو تم سے نبھائی ہوتی
                   <br/>

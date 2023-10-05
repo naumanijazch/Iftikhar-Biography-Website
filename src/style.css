@@ -15,7 +15,7 @@ html {
 
 }
 
-.teal {
+.purple_theme {
   color: var(--imp-text-color) !important;
 }
 
@@ -207,12 +207,12 @@ button:focus {
 }
 
 
-.teal-link {
+.purple_theme-link {
   color: purple;
   text-decoration: none;
 }
 
-.teal-link:hover {
+.purple_theme-link:hover {
   text-decoration: underline;
 }
 
@@ -573,14 +573,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #0f4749 !important;
-  border-color: #0f4749 !important;
+  background-color: rgba(100, 58, 148, 0.582) !important;
+  border-color: rgba(100, 58, 148, 0.582) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #20867ed7 !important;
-  border-color: #20867ed7 !important;
+  background-color: rgba(100, 58, 148, 0.582) !important;
+  border-color: rgba(100, 58, 148, 0.582) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -604,43 +604,6 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);  background-color: #64998D;  background-position: top center;
   background-repeat: repeat;
   color: white !important;
-}
-
-.tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(26, 109, 105, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(13, 104, 121, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
-}
-
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
-
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(59, 167, 175, 0.883) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
-}
-
-.quote-card-view {
-  border: none !important;
-  color: white !important;
-  background-color: transparent !important;
 }
 
 .about-activity {
@@ -820,31 +783,7 @@ button:focus {
   margin: 4px;
 }
 
-.github {
-  color: black;
-}
-
-.linkedin {
-  color: #0077b5;
-}
-
-.angellist {
-  color: grey;
-}
-
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
-}
-
-.linkedin:hover {
-  background-color: #0077b5;
-}
-
-.angellist:hover {
-  background-color: grey;
-}
-
-.github:hover {
-  background-color: black;
 }

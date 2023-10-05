@@ -18,7 +18,7 @@ export default function Other() {
           <h1 style={{ fontSize: "2.4em", paddingBottom: "20px" }}>
           Police Officer: A Journey of Service and Achievement</h1>
         </Row>
-          <img src={img1} width="400" height="500"/>
+          <img src={img1} alt="Police induction" width="400" height="500" />
           <br></br>
           <br></br>
 

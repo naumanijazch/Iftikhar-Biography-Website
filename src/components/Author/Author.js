@@ -10,7 +10,7 @@ export default function Other() {
           Behind the Words: The Life of an Author
           </h1>
           <p>
-            <strong>Book Launch:</strong> Urdu Poetry <strong className="teal">ASHK DO CHAAR</strong>
+            <strong>Book Launch:</strong> Urdu Poetry <strong className="purple_theme">ASHK DO CHAAR</strong>
             <br></br>
             <strong>Date and Time:</strong> <em>Friday: October 6th, 2023</em> at <em>5:30 pm to 7:30 pm</em>
             <br></br>
