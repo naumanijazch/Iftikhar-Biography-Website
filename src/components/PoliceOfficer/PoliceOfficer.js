@@ -1,21 +1,13 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import PhotoAlbum from "react-photo-album";
+import img1 from "../../Assets/police-gallery/img1.jpg"
 
 const photos = [
-  { src: require("../../Assets/art/im1.png"), width: 800, height: 900 },
-  { src: require("../../Assets/art/im2.png"), width: 800, height: 1000 },
-  { src: require("../../Assets/art/im3.png"), width: 1000, height: 900 },
-  { src: require("../../Assets/art/im4.png"), width: 1000, height: 900 },
-  { src: require("../../Assets/art/im5.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im6.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im7.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im8.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im9.png"), width: 500, height: 600 },
-  { src: require("../../Assets/art/im10.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im11.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im12.png"), width: 800, height: 600 },
-  { src: require("../../Assets/art/im13.png"), width: 800, height: 600 },
+  { src: require("../../Assets/police-gallery/img2.jpg"), width: 1000, height: 1000 },
+  { src: require("../../Assets/police-gallery/img4.jpg"), width: 1000, height: 1000 },
+  { src: require("../../Assets/police-gallery/img5.jpg"), width: 1000, height: 1000 },
+  { src: require("../../Assets/police-gallery/img3.jpg"), width: 1000, height: 1000 },
 ];
 
 export default function Other() {
@@ -24,45 +16,34 @@ export default function Other() {
          <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <h1 style={{ fontSize: "2.4em", paddingBottom: "20px" }}>
-            Extra<strong className="teal">Curricular</strong>
-          </h1>
-          <ul style={{ listStyle: "none", padding: 0 }}>
-            <li style={{ fontSize: "1.2em" }}>
-              <strong>
-                <a
-                  href="https://www.ted.com/tedx/events/52803"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="teal-link"
-                >
-                  TEDxFASTLahore
-                </a>
-              </strong>
-              , Organizer (2023)
-            </li>
-            <li style={{ fontSize: "1.2em" }}>
-              CCS, FAST Lahore, General Secretary (2022-23)
-            </li>
-          </ul>
+          Police Officer: A Journey of Service and Achievement</h1>
         </Row>
+          <img src={img1} width="400" height="500"/>
+          <br></br>
+          <br></br>
+
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <div
+            style={{
+              backgroundColor: "rgba(100, 58, 148, 0.582)",
+              padding: "10px",
+              borderRadius: "10px",
+              boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+              textAlign: "center",
+              width: "200px",
+              color: "white",
+              fontWeight: "bold",
+            }}
+          >
+            Coming Soon
+          </div>
+        </Row>
+
+        <br></br>
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Art & <strong className="teal">Calligraphy</strong>
-            </h1>
-            <p style={{fontSize: "1.2em"}}>
-                My art account:  
-                <strong>
-                <a
-                  href="https://www.instagram.com/artbysaleha"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="teal-link"
-                > @artbysaleha
-                </a>
-              </strong>
-            </p>
-  <PhotoAlbum layout="rows" photos={photos} />
-  </Row>
+            <PhotoAlbum layout="rows" photos={photos} />
+        </Row>
   </Container>
   </Container> );
 }
